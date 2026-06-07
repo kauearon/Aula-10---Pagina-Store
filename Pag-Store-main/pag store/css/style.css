@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Lexend", sans-serif;
+    align-items: center;
+}
+
+.header-section {
+    height: 100vh;
+    background-image: url(../img/banner.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    & header {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 92px;
+        align-items: center;
+
+        & nav {
+            display: flex;
+            gap: 40px;
+
+            & a {
+                color: #fefe;
+                font-size: 18px;
+            }
+        }
+
+        .btns {
+            display: flex;
+            gap: 16px;
+
+            & a {
+                padding: 11px 16px;
+                border-radius: 8px;
+                background-color: blue;
+                color: #ffffff;
+            }
+
+            & a:last-child {
+                background-color: transparent;
+                border: 1px solid #ffffff;
+            }
+        }
+    }
+
+    & #hero {
+        margin-top: 114px;
+        margin-left: 95px;
+        color: #ffffff;
+
+        & h1 {
+
+            font-size: 48px;
+            margin-bottom: 26px;
+        }
+
+        & p {
+
+            width: 417px;
+            font-size: 24px;
+        }
+
+        & a {
+            display: inline-block;
+            background-color: #3b44f6;
+            padding: 16px 32px;
+            border-radius: 8px;
+            color: #ffffff;
+            margin-top: 60px;
+
+
+        }
+
+
+    }
+
+
+}
+
+main {
+    & #why-bidogames {
+        margin: auto;
+        max-width: 915px;
+        padding: 70px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 90px;
+        align-items: center;
+        text-align: center;
+        margin-top: 300px;
+
+        & .title {
+            font-size: 36px;
+            color: black;
+
+            &h2 {
+
+                margin-bottom: 16px;
+            }
+
+            & p {
+                font-size: 18px;
+                color: #4B4B4B;
+                width: 473px;
+            }
+        }
+
+        & .cards {
+
+            display: flex;
+            justify-content: space-between;
+
+
+            & .card {
+                width: 280px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 21px;
+            }
+
+            & img {
+                width: 100px;
+
+            }
+
+            & p {
+
+                width: 200px;
+            }
+
+
+
+
+        }
+    }
+
+}
